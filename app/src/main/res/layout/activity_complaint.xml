@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="653dp"
+        android:gravity="center"
+        android:text="Add Details of Your Complaint."
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/rolls"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="526dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="537dp"
+        android:hint="Enter Your Roll Number" />
+
+    <EditText
+        android:id="@+id/compdet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="526dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="273dp"
+        android:hint="Enter Complaint details" />
+
+    <EditText
+        android:id="@+id/hostelname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="526dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="366dp"
+        android:hint="Enter Your Hostel Name" />
+
+    <EditText
+        android:id="@+id/roomnos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="526dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="443dp"
+        android:hint="Enter Your Room Number" />
+
+    <Button
+        android:id="@+id/compsub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="526dp"
+        android:layout_marginEnd="158dp"
+        android:layout_marginBottom="78dp"
+        android:text="Submit" />
+</RelativeLayout>
